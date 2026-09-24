@@ -44,22 +44,18 @@ full studio comes up reproducibly, with AMQP telemetry for monitoring and failov
 
 `Python` `GStreamer` `GTK` `Docker` `Kubernetes` `RabbitMQ`
 
-### [receipt-nutrition-tracker](https://github.com/martin1210235/receipt-nutrition-tracker) · groceries to nutrition, from a photo
-
-Photograph a supermarket receipt and the app works out what is in your kitchen and what you
-have left to eat today. OCR extracts the line items, fuzzy matching resolves them against Open
-Food Facts, and a mobile web app tracks consumption against daily calorie and macro targets.
-Built for a year abroad, where the receipts are in Czech.
-
-`Python` `FastAPI` `Tesseract` `SQLite` `Open Food Facts API`
-
 ---
 
 ## Also building
 
-Private repositories, because they run on my own data: a personal automation hub that
-assembles a daily research digest from a curated source list, and a health data pipeline that
-consolidates wearable exports into a queryable daily log.
+Private for now, because they run on my own data:
+
+- **receipt-nutrition-tracker** — photograph a supermarket receipt and the app works out what
+  is in your kitchen and what you have left to eat today. OCR extracts the line items, fuzzy
+  matching resolves them against Open Food Facts, and a mobile web app tracks consumption
+  against daily calorie and macro targets. `Python` `FastAPI` `Tesseract` `SQLite`
+- **personal-automation-hub** — assembles a daily research digest from a curated source list
+- **health-data-pipeline** — consolidates wearable exports into a queryable daily log
 
 ---
 
